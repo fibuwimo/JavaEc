@@ -1,0 +1,41 @@
+@charset "UTF-8";
+h1{
+	background:pink;
+	color:white;
+	border-left:5px solid;
+	border-color:red;
+	padding:5px;
+}
+#container{
+	margin:auto;
+	width:300px;
+	font-size:10px;
+}
+th{
+	width:120px;
+	background:pink;
+	color:white;
+	border:1px solid;
+	border-color:black;
+}
+td{
+	width:180px;
+	border:1px solid;
+}
+#bottan{
+	margin-top:10px;
+  display: flex;
+  justify-content: center;
+}
+.bottan1{
+	margin-left:10px;
+	margin-right:10px;
+	padding:7px 30px;
+	border:2px solid;
+	border-color:pink;
+	color:pink;
+	border-radius:3px;
+	background:white;
+	text-decoration: none;
+	cursor:pointer
+}
