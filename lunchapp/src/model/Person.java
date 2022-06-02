@@ -2,16 +2,16 @@ package model;
 
 import java.io.Serializable;
 
-public class Lunch  implements Serializable{
+public class Person  implements Serializable{
 	private int id;
 	private String name;
 	private String menu;
-	public Lunch() {}
-	public Lunch(String name,String menu) {
+	public Person() {}
+	public Person(String name,String menu) {
 		this.name=name;
 		this.menu=menu;
 	}
-	public Lunch(int id,String name,String menu) {
+	public Person(int id,String name,String menu) {
 		this(name,menu);
 		this.id=id;
 	}
