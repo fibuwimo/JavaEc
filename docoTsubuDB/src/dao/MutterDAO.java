@@ -70,7 +70,7 @@ public class MutterDAO {
 	public void insertOne(Mutter mutter) {
 		try {
 			this.connect();
-			ps=db.prepareStatement("INSERT INTO docotsubuDBs(name,mutter) VALUES(?,?)");
+			ps=db.prepareStatement("INSERT INTO docotsubuDBs(name,mutter ) VALUES(?,?)");
 			ps.setString(1,mutter.getUserName());
 			ps.setString(2,mutter.getText());
 			ps.executeUpdate();

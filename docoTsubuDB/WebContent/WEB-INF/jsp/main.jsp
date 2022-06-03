@@ -25,8 +25,12 @@
 <% if(errorMsg!=null){ %>
 <p><%=errorMsg %></p>
 <%} %>
+<%if(mutterList==null) {%>
+<p>まだ何もつぶやかれていません</p>
+<%}else{ %>
 <% for(Mutter mutter : mutterList){ %>
 <p><%=mutter.getUserName() %>:<%=mutter.getText() %></p>
+<%} %>
 <%} %>
 </body>
 </html>
