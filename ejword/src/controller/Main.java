@@ -17,7 +17,7 @@ import model.EJWordLogic;
  */
 @WebServlet("/main")
 public class Main extends HttpServlet {
-	private static final long serialVersionUID = 1L;
+	private static final long serialVersionUID =1L;
 	private static final int LIMIT=20;
 
 	/**
